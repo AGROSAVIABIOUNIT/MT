@@ -1,18 +1,29 @@
-###Hello-world
-MT (MultyTyper)
+MultiTyper v0.1
 
-Module One Health (construction)
+This process packaged together typing software for different species include Salmonella spp., Escherichia coli, Enterococcus sp.*, Neisseria gonorrhoeae*, Streptococcus pneumoniae*,...
 
-Including Salmonella serotyping, E.coli typing and Enterococcus typing.
+Software per specie
 
-All in one 
+Salmonella: Seqsero2 v1.1.1, Sistr_cmd v1.1.1
+Ecoli: Ectyper v1.0.0
+Enterococcus: CHEWBBAKKA
+Neisseria gonorrhoeae: Ng-master
+Streptococcus pneumoniae: Pneumocat, Seroba 
 
-Seqsero v.
-EcTyper v.
-CHEWBBAKKA v.
+*not available in this version - comming soon!!
 
-Module Clinical (ideation)
+##conda install
 
-GHRU_AGROSAVIA
+sh scripts/auto_conda_install.sh
 
-# GHRU
+##edit path to nextflow scripts and data base directories, and define specie into the run file "run_mt_pipeline_test.sh" 
+
+NEXTFLOW_PIPELINE_DIR=/path/to/nf_files_base_directory
+DATA_DIR=/path/to/data_base_directory
+SPECIES= Salmonella or Ecoli
+
+##run MT
+
+sh run_mt_pipeline_test.sh
+
+All in one site!!

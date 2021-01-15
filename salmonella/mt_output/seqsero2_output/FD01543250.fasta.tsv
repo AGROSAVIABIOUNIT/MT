@@ -1,0 +1,2 @@
+Sample name	Output directory	Input files	O antigen prediction	H1 antigen prediction(fliC)	H2 antigen prediction(fljB)	Predicted subspecies	Predicted antigenic profile	Predicted serotype	Note
+FD01543250.fasta	/Users/jfbernal/Downloads/github/GHRU/MT/salmonella/mt_output/work/c4/4939f906209cb02df6602b4b5190ba/seqsero2_output	FD01543250.fasta	4	-	1,2	I	4:-:1,2	I 4:-:1,2	fliC was not detected. This is an atypical result that should be further investigated. Most Salmonella strains have fliC, encoding the Phase 1 H antigen, even if it is not expressed. 

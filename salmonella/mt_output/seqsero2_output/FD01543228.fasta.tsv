@@ -1,0 +1,2 @@
+Sample name	Output directory	Input files	O antigen prediction	H1 antigen prediction(fliC)	H2 antigen prediction(fljB)	Predicted subspecies	Predicted antigenic profile	Predicted serotype	Note
+FD01543228.fasta	/Users/jfbernal/Downloads/github/GHRU/MT/salmonella/mt_output/work/c0/caea085b69fcd61da479a6297728dc/seqsero2_output	FD01543228.fasta	4	i	-	I	4:i:-	I 4,[5],12:i:-	

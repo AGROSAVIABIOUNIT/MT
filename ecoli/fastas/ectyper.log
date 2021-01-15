@@ -1,0 +1,19 @@
+Output_directory is /Users/jfbernal/Desktop/taller_2021/ecoli/fastas/.
+Command-line arguments Namespace(cores=1, dbpath=None, debug=False, input='G18000804.fasta', output='.', percentCoverageHtype=50, percentCoverageOtype=90, percentIdentityHtype=95, percentIdentityOtype=90, refseq=None, sequence=False, verify=False)
+RefSeq MASH refseq.genomes.k21s1000.msh age is 0 days downloaded on 2020-12-01 at 22:13:14 located /anaconda2/envs/seqsero/lib/python3.7/site-packages/ectyper/Data/refseq.genomes.k21s1000.msh
+RefSeq sketch (refseq.genomes.k21s1000.msh) and assembly meta data (assembly_summary_refseq.txt) is in good health and does not need to be downloaded
+Gathering genome files
+Using genomes in file G18000804.fasta
+Identifying genome file types
+Folowing files were not found in the input: 
+Creating combined serotype and identification fasta file
+Assembling final list of fasta files
+Standardizing the E.coli genome headers based on file names
+Predicting serotype from blast output
+Serotype prediction completed
+BLAST output file against reference alleles is written at ./blast_output_alleles.txt
+Reporting results:
+Name	Species	O-type	H-type	Serotype	QC	Evidence	GeneScores	AlleleKeys	GeneIdentities(%)	GeneCoverages(%)	GeneContigNames	GeneRanges	GeneLengths	Database	Warnings
+G18000804	-	O75	H5	O75:H5	-	Based on 3 allele(s)	wzx:1;wzy:1;fliC:1;	O75-6-wzx;O75-11-wzy;H5-6-fliC;	100;100;100;	100;100;100;	NODE_1_length_807511_cov_12.899646;NODE_1_length_807511_cov_12.899646;NODE_1_length_807511_cov_12.899646;	514342-515874;508370-509443;682835-684144;	1533;1074;1310;	v1.0 (11-03-2020)	-
+
+ECTyper has finished successfully.

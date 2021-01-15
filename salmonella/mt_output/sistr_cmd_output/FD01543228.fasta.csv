@@ -1,0 +1,2 @@
+cgmlst_ST,cgmlst_distance,cgmlst_found_loci,cgmlst_genome_match,cgmlst_matching_alleles,cgmlst_subspecies,fasta_filepath,genome,h1,h2,o_antigen,qc_messages,qc_status,serogroup,serovar,serovar_antigen,serovar_cgmlst
+,0.039393939393939426,328,2018-SEQ-0599,317,enterica,/Users/jfbernal/Downloads/github/GHRU/MT/salmonella/mt_output/work/cd/95d6cfacbf88faf742a807d6453f3c/FD01543228.fasta,FD01543228,i,-,"1,4,[5],12",INFO: Number of cgMLST330 loci found (n=328),PASS,B,"I 1,4,[5],12:i:-","I 1,4,[5],12:i:-",Typhimurium
