@@ -1,6 +1,6 @@
 # __MultiTyper v0.1__
 
-This process packaged together typing software for different species include Salmonella spp., Escherichia coli, Enterococcus sp.(*), Neisseria gonorrhoeae(*), Streptococcus pneumoniae(*)
+This process packaged together typing software for different species include Salmonella spp., Escherichia coli, Enterococcus sp.(*), Neisseria gonorrhoeae(*), Streptococcus pneumoniae(*) and scalable using nextflow
 
 ## Software per specie
 
@@ -12,9 +12,13 @@ Streptococcus pneumoniae: Pneumocat, Seroba <br>
 
 *not available in this version - comming soon!!
 
-## conda install
+## conda install (optional)
 
 _sh scripts/auto_conda_install.sh_
+
+## nextflow install (optional)
+
+_sh scripts/auto_nextflow_install.sh_
 
 ## edit path to nextflow scripts and data base directories, and define specie into the run file "run_mt_pipeline_test.sh" 
 
